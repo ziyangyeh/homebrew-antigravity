@@ -5,14 +5,15 @@ Linux Homebrew tap for Google Antigravity CLI.
 ## Install
 
 ```sh
-brew tap ziyangyeh/antigravity
-brew install antigravity-cli
+brew install ziyangyeh/antigravity/antigravity-cli
 ```
 
-Or install directly:
+Or tap first, then install. Note the `--formula` flag is required because
+`antigravity-cli` collides with the official macOS cask of the same name:
 
 ```sh
-brew install ziyangyeh/antigravity/antigravity-cli
+brew tap ziyangyeh/antigravity
+brew install --formula antigravity-cli
 ```
 
 This installs the upstream `antigravity` binary as:
