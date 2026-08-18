@@ -1,20 +1,20 @@
 class AntigravityCli < Formula
   desc "Terminal interface for Antigravity agents"
   homepage "https://antigravity.google/product/antigravity-cli"
-  version "1.1.13,6057583128215552"
+  version "1.1.14,6392696810635264"
   license :cannot_represent
 
   depends_on :linux
 
   on_linux do
     on_intel do
-      url "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.1.13-6057583128215552/linux-x64/cli_linux_x64.tar.gz"
-      sha256 "edc7c32b5ab4fc2e4da03381fee83ed566dea6b56b56f9329cd13cd77947a1d9"
+      url "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.1.14-6392696810635264/linux-x64/cli_linux_x64.tar.gz"
+      sha256 "345692ba5dfa201b0fe4b360c2d8e9bc6abf44b59221f190f8a6fd775b78daae"
     end
 
     on_arm do
-      url "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.1.13-6057583128215552/linux-arm/cli_linux_arm64.tar.gz"
-      sha256 "a9fdd2a386770c27dbf784436bd4de70d4d4901c832d5ec6abf27758d5c370f8"
+      url "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.1.14-6392696810635264/linux-arm/cli_linux_arm64.tar.gz"
+      sha256 "89f537d62dd853b27e419d463dbbea5b17972c6307a12f03f81b88408fd8256f"
     end
   end
 
